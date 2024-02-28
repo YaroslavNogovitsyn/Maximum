@@ -1,5 +1,5 @@
-from second_task_using_SQL import result_sql
-from second_task_using_pandas import result
+from solutions.second_task_using_SQL import result_sql
+from solutions.second_task_using_pandas import result
 
 keys = ['communication_id']
 clear_result_sql = result_sql[keys].sort_values(by=keys).reset_index(drop=True)

@@ -1,5 +1,5 @@
-from first_task_not_in_git import result_sql
-from first_task_using_pandas import result_pd
+from solutions.first_task_using_SQL import result_sql
+from solutions.first_task_using_pandas import result_pd
 
 keys = ['communication_id', 'campaign_id']
 clear_result_sql = result_sql[keys].sort_values(by=keys).reset_index(drop=True)
